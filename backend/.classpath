@@ -12,10 +12,10 @@
     <!-- <classpathentry kind="lib" path="servicelib/jsr311-api-1.1.1.jar"/>
 	<classpathentry kind="lib" path="servicelib/jackson-core-2.4.5.jar"/>
   <classpathentry kind="lib" path="servicelib/jackson-databind-2.4.5.jar"/> -->
-  <classpathentry kind="lib" path="servicebundle/swagger-annotations-1.5.12.jar"/>
-  <classpathentry kind="lib" path="servicebundle/swagger-core-1.5.12.jar"/>
-  <classpathentry kind="lib" path="servicebundle/swagger-jaxrs-1.5.12.jar"/>
-  <classpathentry kind="lib" path="servicebundle/swagger-models-1.5.12.jar"/>   
+    <classpathentry kind="lib" path="lib/swagger-annotations-1.5.12.jar"/>
+  <classpathentry kind="lib" path="lib/swagger-core-1.5.12.jar"/>
+  <classpathentry kind="lib" path="lib/swagger-jaxrs-1.5.12.jar"/>
+  <classpathentry kind="lib" path="lib/swagger-models-1.5.12.jar"/>  
   <classpathentry kind="lib" path="servicebundle/json-simple-1.1.1.jar"/>
   <classpathentry kind="output" path="output"/>
 </classpath>

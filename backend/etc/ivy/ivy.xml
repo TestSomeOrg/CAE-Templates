@@ -11,8 +11,9 @@
   </publications>
   <dependencies>
     <dependency org="i5" name="las2peer-bundle" rev="0.7.0" changing="true" conf="platform->*"/>
-    <!-- dependency org="i5" name="las2peer-web-connector" rev="0.6.7" changing="true" conf="platform->*" -->
-    <dependency org="junit" name="junit" rev="4.11" conf="platform->*"/>
+    <dependency org="i5" name="las2peer-web-connector" rev="0.7.0" changing="true" conf="platform->*" />
+    <dependency org="i5" name="las2peer-rest-mapper" rev="0.7.0" changing="true" conf="platform->*" />
+    <dependency org="junit" name="junit" rev="4.12" conf="platform->*"/>
     <dependency org="com.googlecode.json-simple" name="json-simple" rev="1.1.1" conf="bundle->default"/>
 
     $MySQL_Dependencies$

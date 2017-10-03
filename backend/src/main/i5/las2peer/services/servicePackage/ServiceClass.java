@@ -3,6 +3,7 @@ package i5.las2peer.services.$Lower_Resource_Name$;
 $Additional_Import$
 
 import java.net.HttpURLConnection;
+import java.util.logging.Level;
 
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -15,6 +16,7 @@ import javax.ws.rs.Consumes;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.MediaType;
 
+import i5.las2peer.api.Context;
 import i5.las2peer.api.ManualDeployment;
 import i5.las2peer.api.ServiceException;
 import i5.las2peer.restMapper.RESTService;

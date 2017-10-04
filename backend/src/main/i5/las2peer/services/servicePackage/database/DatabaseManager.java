@@ -14,7 +14,7 @@ public class DatabaseManager {
   private static BasicDataSource dataSource;
 
   public DatabaseManager(String jdbcDriverClassName, String jdbcLogin, String jdbcPass,
-      String jdbcUrl, String jdbcSchema) {
+      String jdbcUrl) {
     // prepare and configure data source
     dataSource = new BasicDataSource();
     dataSource.setDefaultAutoCommit(true);

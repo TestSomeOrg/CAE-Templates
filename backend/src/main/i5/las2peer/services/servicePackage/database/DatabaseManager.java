@@ -21,7 +21,7 @@ public class DatabaseManager {
     dataSource.setDriverClassName(jdbcDriverClassName);
     dataSource.setUsername(jdbcLogin);
     dataSource.setPassword(jdbcPass);
-    dataSource.setUrl(jdbcUrl + jdbcSchema);
+    dataSource.setUrl(jdbcUrl);
     dataSource.setValidationQuery("SELECT 1");
     dataSource.setDefaultQueryTimeout(1000);
     dataSource.setMaxConnLifetimeMillis(100000);

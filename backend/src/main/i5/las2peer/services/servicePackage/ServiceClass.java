@@ -63,7 +63,5 @@ public class $Resource_Name$ extends RESTService {
 	// REST methods
 	// //////////////////////////////////////////////////////////////////////////////////////
 
-	// private final $Resource_Name$ service = ($Resource_Name$) Context.getCurrent().getService();
-
 	$Service_Methods$
 }
